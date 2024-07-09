@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workspace</title>
+    <link rel="stylesheet" href="dept.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">Workspace</div>
+            <nav>
+                <ul>
+                    <li><a href="#" onclick="showPage('home')">Home</a></li>
+                    <li><a href="#" onclick="showPage('customers')">Customers</a></li>
+                    <li><a href="#" onclick="showPage('departments')">Departments</a></li>
+                    <li><a href="#" onclick="showPage('media')">Media</a></li>
+                </ul>
+            </nav>
+            <div class="account">
+                <a href="#">My Account</a>
+            </div>
+        </aside>
+        <main class="main-content">
+            <header>
+                <input id="search-input" type="text" placeholder="Search in Home">
+            </header>
+            <section id="home" class="page">
+                <section class="summary-cards">
+                    <div class="card">New Customers <span>24</span></div>
+                    <div class="card">Department Activity <span>434+</span></div>
+                    <div class="card">Total Media Size <span>10TB</span></div>
+                </section>
+                <section class="tables">
+                    <div class="customers">
+                        <h2>Customers</h2>
+                        <table>
+                            <tr>
+                                <th>Customer ID</th>
+                                <th>Department ID</th>
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>Total Media Size</th>
+                            </tr>
+                            <tr>
+                                <td>JRYT456</td>
+                                <td>UHGSD</td>
+                                <td>JOHN</td>
+                                <td>ska4@gmail.com</td>
+                                <td>2GB</td>
+                            </tr>
+                           
+                        </table>
+                    </div>
+                    <div class="departments">
+                        <h2>Departments</h2>
+                        <table>
+                            <tr>
+                                <th>Department ID</th>
+                                <th>Department Incharge</th>
+                                <th>Name</th>
+                                <th>Size</th>
+                                <th>Total Media Size</th>
+                            </tr>
+                            <tr>
+                                <td>JRYT456</td>
+                                <td>UHGSD</td>
+                                <td>JOHN</td>
+                                <td>23</td>
+                                <td>2GB</td>
+                            </tr>
+                           
+                        </table>
+                    </div>
+                    <div class="media">
+                        <h2>Media</h2>
+                        <div class="media-types">
+                            <div class="media-card">Audio <span>14TB</span></div>
+                            <div class="media-card">Video <span>14TB</span></div>
+                            <div class="media-card">Images <span>14TB</span></div>
+                            <div class="media-card">Files <span>14TB</span></div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <section id="customers" class="page" style="display:none;">
+                <h2>Customers</h2>
+                <input type="text" placeholder="Search in Customers">
+                <table>
+                    <tr>
+                        <th>Customer ID</th>
+                        <th>Department ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Total Media Size</th>
+                    </tr>
+                    <tr>
+                        <td>JRYT456</td>
+                        <td>UHGSD</td>
+                        <td>JOHN</td>
+                        <td>ska4@gmail.com</td>
+                        <td>2GB</td>
+                    </tr>
+                   
+                </table>
+                <div class="pagination">
+                    <button>&lt;</button>
+                    <button>1</button>
+                    <button>&gt;</button>
+                </div>
+            </section>
+            <section id="departments" class="page" style="display:none;">
+                <h2>Departments</h2>
+                <input type="text" placeholder="Search in Departments">
+                <table>
+                    <tr>
+                        <th>Department ID</th>
+                        <th>Department Incharge</th>
+                        <th>Name</th>
+                        <th>Size</th>
+                        <th>Total Media Size</th>
+                    </tr>
+                    <tr>
+                        <td>JRYT456</td>
+                        <td>UHGSD</td>
+                        <td>JOHN</td>
+                        <td>23</td>
+                        <td>2GB</td>
+                    </tr>
+                    <tr>
+                        <td>JHSAG36</td>
+                        <td>ASDFJ</td>
+                        <td>JANE</td>
+                        <td>45</td>
+                        <td>0.4GB</td>
+                    </tr>
+                    <tr>
+                        <td>ASJHSA77</td>
+                        <td>SAEFF</td>
+                        <td>BOB</td>
+                        <td>76</td>
+                        <td>200GB</td>
+                    </tr>
+                    <tr>
+                        <td>KSAHKJ366</td>
+                        <td>AFEEE</td>
+                        <td>MARY</td>
+                        <td>87</td>
+                        <td>50GB</td>
+                    </tr>
+                    <tr>
+                        <td>SAKJHD35</td>
+                        <td>REYER</td>
+                        <td>KARAN</td>
+                        <td>76</td>
+                        <td>45GB</td>
+                    </tr>
+                    <tr>
+                        <td>KQHUA5U33</td>
+                        <td>HUHGF</td>
+                        <td>CHRISSY</td>
+                        <td>78</td>
+                        <td>500GB</td>
+                    </tr>
+                </table>
+                <div class="pagination">
+                    <button>&lt;</button>
+                    <button>1</button>
+                    <button>&gt;</button>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="dept.js"></script>
+</body>
+</html>

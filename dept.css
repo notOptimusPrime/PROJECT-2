@@ -1,0 +1,147 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #b19cd9;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.sidebar .logo {
+    font-size: 1.5em;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.sidebar nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar nav ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+.sidebar .account {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.sidebar .account a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+.main-content {
+    width: 80%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+header input {
+    padding: 10px;
+    font-size: 1em;
+}
+
+.summary-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.card {
+    width: 30%;
+    background-color: #e6e6fa;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.card span {
+    display: block;
+    font-size: 2em;
+    color: #4b0082;
+}
+
+.tables h2 {
+    margin-top: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+.media-types {
+    display: flex;
+    justify-content: space-around;
+}
+
+.media-card {
+    width: 22%;
+    background-color: #f8e8ff;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.media-card span {
+    display: block;
+    font-size: 1.5em;
+    color: #4b0082;
+}
+
+.page {
+    display: none;
+}
+
+.pagination {
+    text-align: center;
+}
+
+.pagination button {
+    padding: 10px;
+    margin: 0 5px;
+    background-color: #b19cd9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

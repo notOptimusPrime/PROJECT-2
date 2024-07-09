@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #D8C4E4;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.nav button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.nav button:hover {
+    text-decoration: underline;
+}
+
+.account {
+    margin-top: auto;
+    font-size: 18px;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #F2E8FF;
+}
+
+.page {
+    display: none;
+}
+
+.media-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.media-grid img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.account-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.edit-info {
+    margin: 20px 0;
+}
+
+.edit-info p {
+    display: flex;
+    align-items: center;
+}
+
+.edit-info input {
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.edit-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.save-btn {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.cancel-btn {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
